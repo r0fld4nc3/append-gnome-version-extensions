@@ -1,5 +1,5 @@
 # What it does
- A command line script that appens the given GNOME version each extension's `metadata.json`.
+ A command line script that appends the given GNOME version each extension's `metadata.json`.
 
  Before modifying the file, it creates a backup in the same directory. Better safe than sorry. If it is successful in modifying the file, it unlinks the backup.
 
