@@ -28,3 +28,8 @@ When calling it, don't forget to set at least a version number or any other argu
 ```shell
 alias="python3 path/to/script/append_version_to_extensions.py path/to/your/root/dir"
 ```
+
+# Disclaimer
+This is not a permanent solution to the issue nor does it aim to automatically fix broken or unsupported extensions. This is a temporary solution just to get things up and running if they can after an update where certain extensions become "unsupported" or disabled.
+
+This was created with the aim of quickly enabling some extensions which *technically* work, but the fix is to append the current GNOME version if it hasn't already.
