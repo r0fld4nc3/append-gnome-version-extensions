@@ -6,7 +6,7 @@
 # Usage:
 
 #### Arguments:
-- `root_dir`: Specifies which directory to set as the root if iteration. If left unspecified, defaults to: `~/.local/share/gnome-shell/extensions/`
+- `root_dir`: Specifies which directory to set as the root of iteration. If left unspecified, defaults to: `~/.local/share/gnome-shell/extensions/`
 
 - `-vn`, `--version-number`: The numeric string value to append to the supported extension version.
 
