@@ -11,8 +11,10 @@
 - `-vn`, `--version-number`: The numeric string value to append to the supported extension version.
 
 #### Example:
-```python
-python3 append-gnome-version-extensions.py -vn 48
+```shell
+git clone https://github.com/r0fld4nc3/append-gnome-version-extensions.git
+cd append-gnome-version-extensions/append-gnome-version-extensions
+python3 append_version_to_extensions.py -vn 48
 ```
 
 To have this readily available, it can be aliased in your terminal config file (.zshrc, .bashrc, etc)
